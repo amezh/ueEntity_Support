@@ -76,4 +76,4 @@ static bool SetValueInt(UPARAM(ref) FEntityComponent& Component, FString fieldNa
 };
 ```
 
-if you have a reference to the _Bag_  (which you will in systems loop functions), you may also use _GetCustomComponent_ function from the same BP library to get your component by name.
+If you have a reference to the _Bag_  (which you will in systems loop functions), you may also use _GetCustomComponent_ function from the same BP library to get your component by name.

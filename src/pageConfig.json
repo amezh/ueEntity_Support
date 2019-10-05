@@ -46,14 +46,14 @@
           "name": "Plugin Documentation",
           "description": "Entities, Components, Systems",
           "icon": "project-diagram",
-          "topics": ["process"],
+          "topics": [],
           "children": [
             {
               "route": "/entities",
               "name": "Entities",
               "description": "Everything about Entities",
               "icon": "robot",
-              "topics": ["process"],
+              "topics": ["Entities"],
               "markdown" : "/static/markdown/docs/entities.md"
             },
             {
@@ -61,15 +61,49 @@
               "name": "Components",
               "description": "Everything about Components",
               "icon": "box",
-              "topics": ["process"],
-              "markdown" : "/static/markdown/docs/components.md"
+              "topics": ["Components"],
+              "markdown" : "/static/markdown/docs/components.md",
+              "children": [
+                {
+                  "route": "/transform",
+                  "name": "TransformComponent",
+                  "description": "Position Rotation Scale",
+                  "icon": "",
+                  "topics": ["Components"],
+                  "markdown" : "/static/markdown/docs/components/transformComponent.md"
+                },
+                {
+                  "route": "/render",
+                  "name": "RenderComponent",
+                  "description": "What and where to render",
+                  "icon": "",
+                  "topics": ["Components"],
+                  "markdown" : "/static/markdown/docs/components/renderComponent.md"
+                },
+                {
+                  "route": "/Animation",
+                  "name": "AnimationComponent",
+                  "description": "Actually a few animation compoments",
+                  "icon": "",
+                  "topics": ["Components"],
+                  "markdown" : "/static/markdown/docs/components/animationComponent.md"
+                },
+                {
+                  "route": "/BPCompoment",
+                  "name": "BPComponent",
+                  "description": "aka whatever you want",
+                  "icon": "",
+                  "topics": ["Components"],
+                  "markdown" : "/static/markdown/docs/components/BPComponent.md"
+                }
+              ]
             },
             {
               "route": "/systems",
               "name": "Systems",
               "description": "Everything about Systems",
               "icon": "cogs",
-              "topics": ["process"],
+              "topics": ["Systems"],
               "markdown" : "/static/markdown/docs/systems.md"
             }
           ]

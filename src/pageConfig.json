@@ -22,15 +22,15 @@
           "name": "Releases",
           "description": "recent releases and notes",
           "icon": "bullhorn",
-          "topics": ["Release"],
-          "markdown" : "/static/markdown/Releases.md"
+          "topics": ["       ase"],
+          "markdown" : "/static/markdown/ eleases.md"
         },
         {
           "route": "/gettingstarted",
           "name": "Getting Started",
           "description": "quick guide to setup a scene",
           "icon": "tasks",
-          "topics": ["news"],
+          "topics": ["QuickStart"],
           "markdown" : "/static/markdown/gettingstarted.md"
         },
         {

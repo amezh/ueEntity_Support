@@ -18,4 +18,4 @@ void DeleteEntity(int entityId);
 
 From BP:
 
-![alt text](static/img/screens/create_delete_entity.png "")
+![alt text](static/img/screens/create_delete_entt.png "")

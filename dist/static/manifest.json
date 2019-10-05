@@ -1,6 +1,6 @@
 {
-  "name": "playbook",
-  "short_name": "playbook",
+  "name": "ueEntity",
+  "short_name": "ueEntity",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

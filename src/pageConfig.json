@@ -22,8 +22,8 @@
           "name": "Releases",
           "description": "recent releases and notes",
           "icon": "bullhorn",
-          "topics": ["news"],
-          "markdown" : "/static/markdown/releases.md"
+          "topics": ["Release"],
+          "markdown" : "/static/markdown/Releases.md"
         },
         {
           "route": "/gettingstarted",

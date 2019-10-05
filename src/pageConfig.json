@@ -1,0 +1,80 @@
+{
+  "appName": "ueEntity Docs",
+  "headerNavigation": [
+    {
+      "name": "ueEntity Plugin",
+      "path": "/ueentity"
+    }
+  ],
+  "landingPage": "/ueentity",
+  "topics": [
+  	"news"
+  ],
+  "pages": [
+    {
+      "route": "/ueentity",
+      "name": "ueEntity",
+      "description": "general description",
+      "icon": "address-book",
+      "children": [
+        {
+          "route": "/releases",
+          "name": "Releases",
+          "description": "recent releases and notes",
+          "icon": "bullhorn",
+          "topics": ["news"],
+          "markdown" : "/static/markdown/releases.md"
+        },
+        {
+          "route": "/gettingstarted",
+          "name": "Getting Started",
+          "description": "quick guide to setup a scene",
+          "icon": "tasks",
+          "topics": ["news"],
+          "markdown" : "/static/markdown/gettingstarted.md"
+        },
+        {
+          "route": "/faq",
+          "name": "FAQs",
+          "description": "frequently asked questions are covered here",
+          "topics": [],
+          "icon": "question-circle",
+          "markdown" : "/static/markdown/FAQ.md"
+        },
+        {
+          "route": "/docs",
+          "name": "Plugin Documentation",
+          "description": "Entities, Components, Systems",
+          "icon": "project-diagram",
+          "topics": ["process"],
+          "children": [
+            {
+              "route": "/entities",
+              "name": "Entities",
+              "description": "Everything about Entities",
+              "icon": "robot",
+              "topics": ["process"],
+              "markdown" : "/static/markdown/docs/entities.md"
+            },
+            {
+              "route": "/components",
+              "name": "Components",
+              "description": "Everything about Components",
+              "icon": "box",
+              "topics": ["process"],
+              "markdown" : "/static/markdown/docs/components.md"
+            },
+            {
+              "route": "/systems",
+              "name": "Systems",
+              "description": "Everything about Systems",
+              "icon": "cogs",
+              "topics": ["process"],
+              "markdown" : "/static/markdown/docs/systems.md"
+            }
+          ]
+        }
+      ]      
+    }
+  ]
+}

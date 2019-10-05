@@ -17,4 +17,4 @@ void DeleteEntity(int entityId);
 ```
 
 From BP:
-![alt text](static/img/screens/create_delete_entity.png "Logo Title Text 1")
+![BP](./static/img/screens/create_delete_entity.png "")

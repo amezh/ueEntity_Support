@@ -4,8 +4,8 @@ Render component works with *InstancedStaticMesh*(ISM) or *HierarchicalInstanced
 
 Component is quite simple and consists from two fields:
 
-* meshComponent - a ref to component itself
-* instanceId - a copy of assigned InstanceID in the ISM above. This property is not exposed to BP since rendering system will manage it for you.
+* _UInstancedStaticMeshComponent* meshComponent_ - a ref to component itself
+* *int instanceId* - a copy of assigned InstanceID in the ISM above. This property is not exposed to BP since rendering system will manage it for you.
 
 Render Components can be assigned to any Entity at any time and removed in any time. Entity will keep animating even if it's not rendering anymore.
 
@@ -28,4 +28,4 @@ void DeleteRendererComponent(int entityId);
 ```
 
 BP
-![alt text](static/img/screens/render_component.png "Logo Title Text 1")
+![alt text](static/img/screens/render_component.png "")

@@ -35,7 +35,7 @@ Ignore those errors for now and check your output log for the real issue.
 ## Blueprint nativization doesn't work
 
 Correct! Plugin it generates doesn't use cpp17, but fear not!
-Navigate to your engine folder like UE_4.23\Engine\Content\Editor\Templates  find PluginModule.Build.cs.template (make a backup if you want)
+Navigate to your engine folder like UE_4.24\Engine\Content\Editor\Templates  find PluginModule.Build.cs.template (make a backup if you want)
 
 Modify it to look like so and you're good to go:
 

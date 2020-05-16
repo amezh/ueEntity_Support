@@ -32,6 +32,22 @@ Ignore those errors for now and check your output log for the real issue.
 
 ---
 
+## Blueprint nativization doesn't work
+
+Correct! Plugin it generates doesn't use cpp17, but fear not!
+Navigate to your engine folder like UE_4.24\Engine\Content\Editor\Templates  find PluginModule.Build.cs.template (make a backup if you want)
+
+Modify it to look like so and you're good to go:
+
+```C#
+PCHUsage = PCHUsageMode.NoSharedPCHs;
+PrivatePCHHeaderFile = "Private/%MODULE_NAME%.h";
+CppStandard = CppStandardVersion.Cpp17;
+bLegacyPublicIncludePaths = Target.bLegacyPublicIncludePaths;
+```
+
+---
+
 ## I'm getting an error about /std:cpp17
 
 modify your project .Build.cs file to have:

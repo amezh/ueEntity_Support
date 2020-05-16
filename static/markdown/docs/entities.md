@@ -1,7 +1,8 @@
 
 # Introduction
 
-*Entity* in context of ueEntity is just an integer id.
+*Entity* in context of ueEntity is just an integer id. 
+> WARNING: IDs are reusable, so if you plan to destroy entities and create new ones - don't store IDs around
 
 Manipulating entities is easy and fast.
 To do that we use USceneComponent: *EntityRegistryContainer*.
